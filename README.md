@@ -2,7 +2,7 @@
 
 ## schedule of our wonderful day together
 
-1. Quick historical introduction to [basil.js](http://basiljs.ch/) & installation for those who didn't manage to it by themselves
+1. Quick historical introduction to [basil.js](http://basiljs.ch/) & [installation](http://basiljs.ch/tutorials/installation-and-getting-started/) for those who didn't manage to do it by themselves
 
 2. "Hello World!" with 
 
@@ -71,3 +71,11 @@
    ```
 
    ​
+
+## REFERENCES
+
+* Basics [cheatsheet](http://basiljs.ch/wp-content/uploads/2012/11/basiljs-cheatsheet.pdf)
+* Typo [cheatsheet](http://basiljs.ch/wp-content/uploads/2013/03/basiljs_b_typo_cheatsheet_v0_2.pdf)
+* [InDesign Object Model](http://basiljs.ch/wp-content/uploads/2012/11/basiljs-IOM-0.2.pdf)
+
+Thanks to  [Ted Davis](http://www.teddavis.org/) for the cheatsheets!
