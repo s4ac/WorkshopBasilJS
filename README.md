@@ -35,4 +35,39 @@
    }
    ```
 
-4. ​
+4. Vector exercise
+
+   ```javascript
+   function Vector(x, y){
+       this.x = x;
+       this.y = y;
+
+       this.sub = function(v1, v2){
+           var result = new Vector(0, 0);
+           result.x = v1.x - v2.x;
+           result.y = v1.y - v2.y;
+           return result;
+       }
+
+       this.add = function(x, y){
+           this.x += x;
+           this.y += y;
+       }
+
+       this.heading = function(){
+           return -Math.atan2(-this.y, this.x);
+       }
+   }
+   ```
+
+5. Parsing JSON from the [INTERNET](http://internet.net/)
+
+   ```javascript
+   var searchURL = "https://en.wikipedia.org/w/api.php?action=opensearch&format=json&search="
+   var word = 'any word found in our indesign file'
+   var url = b.loadString(searchURL + word);
+   var json = b.JSON.decode(url);
+   b.text(json[2][0], 22, 69, 130, 150);
+   ```
+
+   ​
