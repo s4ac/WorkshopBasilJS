@@ -69,8 +69,7 @@
    var json = b.JSON.decode(url);
    b.text(json[2][0], 22, 69, 130, 150);
    ```
-
-   ​
+5.5. [SORT!](https://developer.mozilla.org/it/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
 
 ## REFERENCES
 
