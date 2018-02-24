@@ -70,13 +70,13 @@
    b.text(json[2][0], 22, 69, 130, 150);
    ```
 5.5. [SORT!](https://developer.mozilla.org/it/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
-```javascript
-var myWords = words.contents.split(/\W+/)
-myWords.sort(myFunction);
-function myFunction (a, b){
-return a.length - b.length;
-}
-```
+   ```javascript
+   var myWords = words.contents.split(/\W+/)
+   myWords.sort(myFunction);
+   function myFunction (a, b){
+      return a.length - b.length;
+      }
+   ```
 
 ## REFERENCES
 
